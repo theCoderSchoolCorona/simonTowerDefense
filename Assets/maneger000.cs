@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class maneger000 : MonoBehaviour
 {
+    public Camera cam;
     public int LIFE;
     public int Bananas;
     public static maneger000 instance;
