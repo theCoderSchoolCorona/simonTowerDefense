@@ -1,7 +1,9 @@
 using UnityEngine;
+using UnityEngine.Events;
 
 public class maneger000 : MonoBehaviour
 {
+    public UnityEvent changeMONEYYYYY;
     public Camera cam;
     public int LIFE;
     public int Bananas;
@@ -26,6 +28,7 @@ public class maneger000 : MonoBehaviour
     public void MONEY_change(int change)
     {
         Bananas += change;
+        changeMONEYYYYY.Invoke();
         Debug.Log("THE AMOUNT YOU HAVE IS THIS" + Bananas);
     }
 

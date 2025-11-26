@@ -8,6 +8,16 @@ public class CREATIONTHINGY : MonoBehaviour
     public float Clocks;
     public int round;
     public around[] BAD;
+    public void roundafter()
+    {
+        if (round+1 == BAD.Length)
+        {
+            return;
+        }
+        round += 1;
+        Clocks = 0;
+            
+    }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
