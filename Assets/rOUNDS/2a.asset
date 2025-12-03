@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   many: 17
   spacing: 0.1
-  thingy: {fileID: 3338821813968259217, guid: 2084aba44dacc8d4ca0de2be8409d6f2, type: 3}
+  thingy: {fileID: 3338821813968259217, guid: 732f0c1aea38cd54baebabd96e7a7e27, type: 3}
   when: 2

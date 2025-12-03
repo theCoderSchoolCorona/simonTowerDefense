@@ -21,6 +21,11 @@ public class evilguy3 : MonoBehaviour
         if (collision.TryGetComponent<projectile>(out projectile PAIN))
         {
             LIFE -= PAIN.Pain;
+            PAIN.pirce -= 1;
+            if (PAIN.pirce <= 0)
+            {
+                Destroy(PAIN.gameObject);
+            }
             if (LIFE <= 0)
             {
                 maneger000.instance.MONEY_change(GAIN);

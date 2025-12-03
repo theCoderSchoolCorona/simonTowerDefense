@@ -8,6 +8,7 @@ public class projectile : MonoBehaviour
     public Rigidbody2D pyscis;
     public Vector2 face_somewhere;
     public int Pain;
+    public int pirce = 1;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

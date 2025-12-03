@@ -104,8 +104,8 @@ MonoBehaviour:
   bullet: {fileID: 8171684256242893182, guid: fa4fd67d5690c174982eef82d33ce849, type: 3}
   area_of_sight: 3
   Area_circlE: {fileID: 0}
-  SPEEEEEEEEED: 49
-  attack_sped: 1
+  SPEEEEEEEEED: 51
+  attack_sped: 0.3
   timer_: 0
-  PAINN: 100
+  PAINN: 20
   placed: 0

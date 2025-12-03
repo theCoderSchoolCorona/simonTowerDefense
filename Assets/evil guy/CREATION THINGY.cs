@@ -15,18 +15,22 @@ public class CREATIONTHINGY : MonoBehaviour
             return;
         }
         round += 1;
+        new_round();
         Clocks = 0;
             
     }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        for(int i = 0; i < BAD[round].round_63.Length; i++)
+        new_round();
+    }
+    private void new_round()
+    {
+        for (int i = 0; i < BAD[round].round_63.Length; i++)
         {
             BAD[round].round_63[i].MAny = 0;
         }
     }
-
     // Update is called once per frame
     void Update()
     {
