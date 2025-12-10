@@ -24,7 +24,8 @@ public class evilguy3 : MonoBehaviour
             PAIN.pirce -= 1;
             if (PAIN.pirce <= 0)
             {
-                Destroy(PAIN.gameObject);
+                PAIN.explode();
+                print("AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH");
             }
             if (LIFE <= 0)
             {

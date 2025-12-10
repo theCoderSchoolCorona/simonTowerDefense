@@ -20,10 +20,19 @@ public class projectile : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        when_DIE -= Time.deltaTime;
+        if (when_DIE <= 0)
+        {
+            Destroy(gameObject);
+        }
         if (Vector2.Distance(Vector2.zero, transform.position) > when_DIE)
         {
             Destroy(gameObject);
         }
      
+    }
+    public virtual void explode()
+    {
+        Destroy(gameObject);
     }
 }

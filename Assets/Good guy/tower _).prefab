@@ -101,11 +101,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   taxes: 4
-  bullet: {fileID: 8171684256242893182, guid: fa4fd67d5690c174982eef82d33ce849, type: 3}
-  area_of_sight: 3
+  bullet: {fileID: 3988459092299304643, guid: 3674d99bea52cce43888cb87eb983104, type: 3}
+  area_of_sight: 5
   Area_circlE: {fileID: 0}
   SPEEEEEEEEED: 51
-  attack_sped: 0.3
+  attack_sped: 0.1
   timer_: 0
   PAINN: 20
   placed: 0
