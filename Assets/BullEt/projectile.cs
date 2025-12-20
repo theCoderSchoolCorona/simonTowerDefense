@@ -9,6 +9,7 @@ public class projectile : MonoBehaviour
     public Vector2 face_somewhere;
     public int Pain;
     public int pirce = 1;
+    public float THE_VOID;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -25,7 +26,7 @@ public class projectile : MonoBehaviour
         {
             Destroy(gameObject);
         }
-        if (Vector2.Distance(Vector2.zero, transform.position) > when_DIE)
+        if (Vector2.Distance(Vector2.zero, transform.position) > THE_VOID)
         {
             Destroy(gameObject);
         }

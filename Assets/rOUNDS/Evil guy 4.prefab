@@ -56,6 +56,8 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -77,6 +79,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
@@ -107,7 +110,7 @@ MonoBehaviour:
   SQUISH: 0.5
   Vacation: 0
   PYSICS_: {fileID: 0}
-  MOVEMENT_FasT: 1
+  MOVEMENT_FasT: 10
   THE_patH:
   - {fileID: 0}
   - {fileID: 0}
@@ -127,8 +130,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24f2fe40039509a478c0ce4a4f1d5a6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LIFE: 1000
-  GAIN: 700
+  LIFE: 10
+  GAIN: 12
 --- !u!50 &5179890435239614854
 Rigidbody2D:
   serializedVersion: 5

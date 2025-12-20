@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb7f68f6c170e0f4da49b24496894adc, type: 3}
   m_Name: 2a
   m_EditorClassIdentifier: 
-  many: 17
-  spacing: 0.1
+  many: 20
+  spacing: 0.7
   thingy: {fileID: 3338821813968259217, guid: 732f0c1aea38cd54baebabd96e7a7e27, type: 3}
-  when: 2
+  when: 3

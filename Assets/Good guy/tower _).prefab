@@ -53,6 +53,8 @@ SpriteRenderer:
   m_RayTracingAccelStructBuildFlagsOverride: 0
   m_RayTracingAccelStructBuildFlags: 1
   m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -74,10 +76,11 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
+  m_Sprite: {fileID: -168421969075237668, guid: fbc28c0921b256f4b89e786d4231b7f4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -102,10 +105,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   taxes: 4
   bullet: {fileID: 3988459092299304643, guid: 3674d99bea52cce43888cb87eb983104, type: 3}
-  area_of_sight: 5
+  area_of_sight: 4
   Area_circlE: {fileID: 0}
-  SPEEEEEEEEED: 51
-  attack_sped: 0.1
+  SPEEEEEEEEED: 20
+  attack_sped: 0.6
   timer_: 0
-  PAINN: 20
+  PAINN: 2
   placed: 0

@@ -22,7 +22,6 @@ public class i_have_no_idea : towerstart
         }
         if (far)
         {
-            Debug.Log(far.gameObject.name);
             GameObject Cannonball = Instantiate(bullet);
             Cannonball.transform.position = transform.position;
             var degres = Mathf.Atan2(far.transform.position.y - transform.position.y, far.transform.position.x - transform.position.x);

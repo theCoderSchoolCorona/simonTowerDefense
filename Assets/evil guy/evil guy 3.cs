@@ -25,7 +25,7 @@ public class evilguy3 : MonoBehaviour
             if (PAIN.pirce <= 0)
             {
                 PAIN.explode();
-                print("AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH");
+                Debug.Log("AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH");
             }
             if (LIFE <= 0)
             {
