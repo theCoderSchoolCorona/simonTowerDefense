@@ -6,6 +6,7 @@ public class maneger000 : MonoBehaviour
     public UnityEvent changeMONEYYYYY;
     public Camera cam;
     public int LIFE;
+    public GameObject GameOver;
     public int Bananas;
     public static maneger000 instance;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -24,6 +25,10 @@ public class maneger000 : MonoBehaviour
     {
         LIFE += change;
         Debug.Log("THE AMOUNT YOU LIVE IS THIS" + LIFE);
+        if (LIFE <= 0)
+        {
+            GameOver.SetActive(true);
+        }
     }
     public void MONEY_change(int change)
     {

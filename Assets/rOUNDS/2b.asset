@@ -9,11 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d78272300edc57a4f819369976528edd, type: 3}
-  m_Name: 1
+  m_Script: {fileID: 11500000, guid: eb7f68f6c170e0f4da49b24496894adc, type: 3}
+  m_Name: 2b
   m_EditorClassIdentifier: 
-  round_63:
-  - sheild: {fileID: 11400000, guid: 32025cba71041064b96b261648b3d9f5, type: 2}
-    MAny: 3
-  - sheild: {fileID: 11400000, guid: 32025cba71041064b96b261648b3d9f5, type: 2}
-    MAny: 3
+  many: 8
+  spacing: 0.1
+  thingy: {fileID: 3338821813968259217, guid: bbb59d04fd27cd94387e65286fc58283, type: 3}
+  when: 8

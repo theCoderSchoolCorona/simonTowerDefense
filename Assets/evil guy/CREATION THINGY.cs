@@ -1,9 +1,11 @@
 using System.Linq;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class CREATIONTHINGY : MonoBehaviour
 {
+    public UnityEvent on_the_roun_of_newest;
     public GameObject[] path;
     public float Clocks;
     public int round;
@@ -30,6 +32,7 @@ public class CREATIONTHINGY : MonoBehaviour
         {
             BAD[round].round_63[i].MAny = 0;
         }
+        on_the_roun_of_newest.Invoke();
     }
     // Update is called once per frame
     void Update()

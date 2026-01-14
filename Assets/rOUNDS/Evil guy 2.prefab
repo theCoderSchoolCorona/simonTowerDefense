@@ -110,7 +110,7 @@ MonoBehaviour:
   SQUISH: 0.5
   Vacation: 0
   PYSICS_: {fileID: 0}
-  MOVEMENT_FasT: 6
+  MOVEMENT_FasT: 20
   THE_patH:
   - {fileID: 0}
   - {fileID: 0}
