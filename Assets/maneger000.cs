@@ -14,6 +14,7 @@ public class maneger000 : MonoBehaviour
     {
 
         instance = this;
+        MONEY_change(0);
     }
 
     // Update is called once per frame
