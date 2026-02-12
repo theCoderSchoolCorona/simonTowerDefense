@@ -16,4 +16,4 @@ MonoBehaviour:
   - sheild: {fileID: 11400000, guid: eef1ff0d74aee614aadfd2bde32a6a25, type: 2}
     MAny: 3
   - sheild: {fileID: 11400000, guid: 2ba413cf0599f39429d9788238e71e4b, type: 2}
-    MAny: 30
+    MAny: 19
