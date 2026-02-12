@@ -4,6 +4,7 @@ using UnityEngine.Events;
 public class maneger000 : MonoBehaviour
 {
     public UnityEvent changeMONEYYYYY;
+    public UnityEvent changeLIFEEEEEE;
     public Camera cam;
     public int LIFE;
     public GameObject GameOver;
@@ -30,6 +31,7 @@ public class maneger000 : MonoBehaviour
         {
             GameOver.SetActive(true);
         }
+        changeLIFEEEEEE.Invoke();
     }
     public void MONEY_change(int change)
     {

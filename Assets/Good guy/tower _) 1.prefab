@@ -103,7 +103,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0a16e50c23c91c24ba9dc6bbcd012446, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  taxes: 700
+  taxes: 600
   bullet: {fileID: 8171684256242893182, guid: fa4fd67d5690c174982eef82d33ce849, type: 3}
   area_of_sight: 8
   Area_circlE: {fileID: 0}
