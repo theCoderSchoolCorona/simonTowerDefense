@@ -700,7 +700,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::buttons
   dart_monkey: {fileID: 3358164231746697714, guid: e8760eb95629ea54c899c05c61487105, type: 3}
-  tower: {fileID: 2777980501726236578, guid: e8760eb95629ea54c899c05c61487105, type: 3}
+  tower: {fileID: 1352250782940067378, guid: e8760eb95629ea54c899c05c61487105, type: 3}
 --- !u!114 &398301382
 MonoBehaviour:
   m_ObjectHideFlags: 0
