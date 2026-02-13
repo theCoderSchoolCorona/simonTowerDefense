@@ -29,10 +29,10 @@ public abstract class towerstart : MonoBehaviour
         timer_ += Time.deltaTime;
         if (timer_ > attack_sped)
         {
-            pew_pew();
+            Attack();
             timer_ = 0;
         }
     }
 
-    public abstract void pew_pew();
+    public abstract void Attack();
 }

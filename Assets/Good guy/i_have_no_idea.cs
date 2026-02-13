@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class i_have_no_idea : towerstart
 {
-    public override void pew_pew()
+    public override void Attack()
     {
         LayerMask masK = LayerMask.GetMask("banana");
         var inrange = Physics2D.CircleCastAll(gameObject.transform.position, area_of_sight, Vector2.zero,50f,masK);
