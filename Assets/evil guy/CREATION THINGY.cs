@@ -6,7 +6,7 @@ using UnityEngine.Events;
 public class CREATIONTHINGY : MonoBehaviour
 {
     public UnityEvent on_the_roun_of_newest;
-    public GameObject[] path;
+    public Transform[] path;
     public float Clocks;
     public int round;
     public around[] BAD;
@@ -43,8 +43,8 @@ public class CREATIONTHINGY : MonoBehaviour
             var spwan_stuff=BAD[round].round_63[i];
             if (spwan_stuff.sheild.many > spwan_stuff.MAny&&spwan_stuff.sheild.when + spwan_stuff.sheild.spacing * spwan_stuff.MAny < Clocks)
             {
-                GameObject banana=Instantiate(spwan_stuff.sheild.thingy);
-                MARCH stealing = banana.GetComponent<MARCH>();
+                GameObject banana = Instantiate(spwan_stuff.sheild.thingy);
+                EnemyMarch stealing = banana.GetComponent<EnemyMarch>();
                 stealing.THE_patH = path;
                 stealing.egg();
                 spwan_stuff.MAny += 1;

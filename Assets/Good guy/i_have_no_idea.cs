@@ -6,15 +6,16 @@ public class i_have_no_idea : towerstart
     {
         LayerMask masK = LayerMask.GetMask("banana");
         var inrange = Physics2D.CircleCastAll(gameObject.transform.position, area_of_sight, Vector2.zero,50f,masK);
-        MARCH far;
+        EnemyMarch far;
+
         if (inrange.Length == 0)
         {
             return;
         }
-        far = inrange[0].transform.gameObject.GetComponent<MARCH>();
+        far = inrange[0].transform.gameObject.GetComponent<EnemyMarch>();
         foreach (var evilguy in inrange)
         {
-            MARCH THEevilguy = evilguy.transform.GetComponent<MARCH>();
+            EnemyMarch THEevilguy = evilguy.transform.GetComponent<EnemyMarch>();
             if (THEevilguy.distance > far.distance)
             {
                 far = THEevilguy;

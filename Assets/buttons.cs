@@ -17,10 +17,10 @@ public class buttons : MonoBehaviour
     }
     public void summon_tower()
     {
-        if (maneger000.instance.Bananas >= tower.taxes)
+        if (GameManager.instance.Bananas >= tower.taxes)
         {
             Instantiate(dart_monkey);
-            maneger000.instance.MONEY_change(-tower.taxes);
+            GameManager.instance.MoneyChange(-tower.taxes);
         }
     }
 }

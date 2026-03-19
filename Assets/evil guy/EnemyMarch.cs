@@ -2,14 +2,14 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
-public class MARCH : MonoBehaviour
+public class EnemyMarch : MonoBehaviour
 {
     public float distance;
     public float SQUISH;
     public int Vacation;
     public Rigidbody2D PYSICS_;
     public float MOVEMENT_FasT;
-    public GameObject [] THE_patH;
+    public Transform[] THE_patH;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public void egg()
     {
@@ -25,14 +25,14 @@ public class MARCH : MonoBehaviour
         {
             return;
         }
-        transform.position = Vector2.MoveTowards(transform.position, THE_patH[Vacation].transform.position,MOVEMENT_FasT*Time.deltaTime);
+        transform.position = Vector2.MoveTowards(transform.position, THE_patH[Vacation].position,MOVEMENT_FasT*Time.deltaTime);
         distance += MOVEMENT_FasT * Time.deltaTime;
         if (Vector2.Distance(transform.position, THE_patH[Vacation].transform.position) < SQUISH)
         {
             Vacation += 1;
             if (Vacation >= THE_patH.Length)
             {
-                maneger000.instance.LIFE_change(-1);
+                GameManager.instance.UpdateHealth(-1);
                 Destroy(gameObject);
             }
         } 

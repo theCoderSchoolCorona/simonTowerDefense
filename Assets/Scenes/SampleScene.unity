@@ -620,12 +620,12 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   path:
-  - {fileID: 1723523037}
-  - {fileID: 30610015}
-  - {fileID: 1383522415}
-  - {fileID: 498402471}
-  - {fileID: 1263897451}
-  - {fileID: 1526796016}
+  - {fileID: 1723523038}
+  - {fileID: 30610016}
+  - {fileID: 1383522416}
+  - {fileID: 498402472}
+  - {fileID: 1263897452}
+  - {fileID: 1526796017}
   Clocks: 0
   round: 0
   BAD:
@@ -2249,7 +2249,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 819442955}
-  - component: {fileID: 819442954}
+  - component: {fileID: 819442956}
   m_Layer: 0
   m_Name: Maneger
   m_TagString: Untagged
@@ -2257,28 +2257,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &819442954
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 819442953}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f2160c16602a0834ab9119905df699e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  changeMONEYYYYY:
-    m_PersistentCalls:
-      m_Calls: []
-  changeLIFEEEEEE:
-    m_PersistentCalls:
-      m_Calls: []
-  cam: {fileID: 519420031}
-  LIFE: 10
-  GameOver: {fileID: 114879447}
-  Bananas: 10000
 --- !u!4 &819442955
 Transform:
   m_ObjectHideFlags: 0
@@ -2294,6 +2272,28 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &819442956
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 819442953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 85f457890df91a34f85e7c7ca7ed7cfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameManager
+  OnChangeMoney:
+    m_PersistentCalls:
+      m_Calls: []
+  OnChangeLife:
+    m_PersistentCalls:
+      m_Calls: []
+  cam: {fileID: 519420031}
+  playerHealth: 1000
+  GameOver: {fileID: 114879447}
+  Bananas: 10000
 --- !u!1 &906798259
 GameObject:
   m_ObjectHideFlags: 0

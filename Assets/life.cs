@@ -8,12 +8,12 @@ public class life : MonoBehaviour
     public TextMeshProUGUI bananananananananana;
     private void updatei()
     {
-        bananananananananana.text = "lives" + maneger000.instance.LIFE.ToString();
+        bananananananananana.text = "lives" + GameManager.instance.playerHealth.ToString();
     }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        maneger000.instance.changeLIFEEEEEE.AddListener(updatei);
+        GameManager.instance.OnChangeLife.AddListener(updatei);
         updatei();
     }
 

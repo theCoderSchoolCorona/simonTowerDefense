@@ -10,6 +10,7 @@ public class projectile : MonoBehaviour
     public int Pain;
     public int pirce = 1;
     public float THE_VOID;
+    public bool canBeDestoryed = true;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -34,6 +35,9 @@ public class projectile : MonoBehaviour
     }
     public virtual void explode()
     {
+        if (!canBeDestoryed)
+            return;
+
         Destroy(gameObject);
     }
 }

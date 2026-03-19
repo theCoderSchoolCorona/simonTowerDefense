@@ -13,8 +13,9 @@ public abstract class towerstart : MonoBehaviour
     public float timer_;
     public int PAINN;
     public bool placed = false;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    private void Update()
+    public virtual void Update()
     {
         if (Input.GetMouseButtonDown(0))
         {
@@ -22,7 +23,7 @@ public abstract class towerstart : MonoBehaviour
         }
         if (!placed)
         {
-            transform.position = maneger000.instance.cam.ScreenToWorldPoint(new Vector3(Input.mousePosition.x,Input.mousePosition.y,0));
+            transform.position = GameManager.instance.cam.ScreenToWorldPoint(new Vector3(Input.mousePosition.x,Input.mousePosition.y,0));
             transform.position = new Vector3(transform.position.x, transform.position.y, 0);
             return;
         }

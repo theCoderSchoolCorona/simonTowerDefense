@@ -10,10 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 184411418968339144}
   - component: {fileID: 7022086448720845076}
-  - component: {fileID: 6749288779228354413}
   - component: {fileID: 6220997917425270978}
   - component: {fileID: 5179890435239614854}
   - component: {fileID: 7650471841056780300}
+  - component: {fileID: 1929011539702113732}
   m_Layer: 3
   m_Name: Evil guy 4
   m_TagString: Untagged
@@ -94,30 +94,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &6749288779228354413
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3338821813968259217}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aa2026d30fc904b4c8f66fc11a727a82, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  distance: 0
-  SQUISH: 0.5
-  Vacation: 0
-  PYSICS_: {fileID: 0}
-  MOVEMENT_FasT: 10
-  THE_patH:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!114 &6220997917425270978
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -130,8 +106,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24f2fe40039509a478c0ce4a4f1d5a6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LIFE: 10
-  GAIN: 12
+  health: 5
+  gain: 0
 --- !u!50 &5179890435239614854
 Rigidbody2D:
   serializedVersion: 5
@@ -195,3 +171,21 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.5
+--- !u!114 &1929011539702113732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3338821813968259217}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43cafe8057006ee4c8d63291cc802f49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyMarch
+  distance: 0
+  SQUISH: 2
+  Vacation: 10
+  PYSICS_: {fileID: 0}
+  MOVEMENT_FasT: 6
+  THE_patH: []

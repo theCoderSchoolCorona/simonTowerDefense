@@ -1,37 +1,31 @@
 using UnityEngine;
 
-public class evilguy3 : MonoBehaviour
+public class Enemy : MonoBehaviour
 {
-    public int LIFE;
-    public int GAIN;
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        
-    }
+    public int health;
+    public int gain;
 
-    // Update is called once per frame
-    void Update()
-    {
-
-        
-    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.TryGetComponent<projectile>(out projectile PAIN))
         {
-            LIFE -= PAIN.Pain;
-            PAIN.pirce -= 1;
-            if (PAIN.pirce <= 0)
-            {
-                PAIN.explode();
-                Debug.Log("AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH");
-            }
-            if (LIFE <= 0)
-            {
-                maneger000.instance.MONEY_change(GAIN);
-                Destroy(gameObject);
-            }
+            Damage(PAIN);
+        }
+    }
+
+    public void Damage(projectile PAIN)
+    {
+        health -= PAIN.Pain;
+        PAIN.pirce -= 1;
+        if (PAIN.pirce <= 0)
+        {
+            PAIN.explode();
+            Debug.Log("AHH");
+        }
+        if (health <= 0)
+        {
+            GameManager.instance.MoneyChange(gain);
+            Destroy(gameObject);
         }
     }
 }

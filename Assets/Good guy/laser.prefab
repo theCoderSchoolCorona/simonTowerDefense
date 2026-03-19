@@ -105,11 +105,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::LaserTower
   taxes: 1000
-  bullet: {fileID: 3988459092299304643, guid: 3674d99bea52cce43888cb87eb983104, type: 3}
-  area_of_sight: 3
+  bullet: {fileID: 8171684256242893182, guid: 109568df42b7e3c4091c2c5f0f3a9771, type: 3}
+  area_of_sight: 1000
   Area_circlE: {fileID: 0}
-  SPEEEEEEEEED: 0
-  attack_sped: 0
+  SPEEEEEEEEED: 0.5
+  attack_sped: 0.4
   timer_: 0
   PAINN: 1
   placed: 0
@@ -166,13 +166,13 @@ LineRenderer:
   - {x: 0, y: 0, z: 1}
   m_Parameters:
     serializedVersion: 3
-    widthMultiplier: 1
+    widthMultiplier: 0.5
     widthCurve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.011154175
-        value: 0.19298553
+        time: 0.0111524165
+        value: 0.54386353
         inSlope: 0
         outSlope: 0
         tangentMode: 0
