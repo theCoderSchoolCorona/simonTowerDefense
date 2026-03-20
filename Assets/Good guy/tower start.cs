@@ -4,6 +4,7 @@ using UnityEngine.InputSystem;
 
 public abstract class towerstart : MonoBehaviour
 {
+    public AudioSource the_audiO;
     public int taxes;
     public GameObject bullet;
     public float area_of_sight;
@@ -14,6 +15,10 @@ public abstract class towerstart : MonoBehaviour
     public int PAINN;
     public bool placed = false;
 
+    public virtual void Start()
+    {
+        the_audiO = GetComponent<AudioSource>();
+    }
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public virtual void Update()
     {

@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::around2
   many: 3
   spacing: 3
-  thingy: {fileID: 3338821813968259217, guid: 732f0c1aea38cd54baebabd96e7a7e27, type: 3}
+  thingy: {fileID: 3338821813968259217, guid: ac77dd0bc26cf4340a65613cf45be5e5, type: 3}
   when: 1

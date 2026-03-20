@@ -113,8 +113,9 @@ MonoBehaviour:
   pyscis: {fileID: 0}
   face_somewhere: {x: 0, y: 0}
   Pain: 0
-  pirce: 1
+  pirce: 3
   THE_VOID: 20
+  canBeDestoryed: 1
 --- !u!50 &3948593707260815469
 Rigidbody2D:
   serializedVersion: 5

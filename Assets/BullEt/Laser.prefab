@@ -49,7 +49,7 @@ MonoBehaviour:
   fast: 10
   pyscis: {fileID: 0}
   face_somewhere: {x: 0, y: 0}
-  Pain: 1
-  pirce: -6382
+  Pain: 2
+  pirce: 1
   THE_VOID: 20
   canBeDestoryed: 0

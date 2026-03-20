@@ -41,6 +41,7 @@ public class LaserTower : towerstart
                 march = newMarch;
             }
         }
+        target = march.GetComponent<Enemy>();
         if (march)
         {
             enemy.Damage(bullet.gameObject.GetComponent<projectile>());
@@ -50,6 +51,10 @@ public class LaserTower : towerstart
     {
         if (target != null)
         {
+            if (!the_audiO.isPlaying)
+            {
+                the_audiO.Play();
+            }
             Debug.Log(target.transform.GetInstanceID());
             line.enabled = true;
             line.SetPosition(0, gameObject.transform.position);
@@ -57,6 +62,7 @@ public class LaserTower : towerstart
         }
         else
         {
+            the_audiO.Stop();
             line.enabled = false;
         }
     }

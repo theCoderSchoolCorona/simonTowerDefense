@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 7650471841056780300}
   - component: {fileID: 1929011539702113732}
   m_Layer: 3
-  m_Name: Evil guy 4
+  m_Name: Evil guy 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30,8 +30,8 @@ Transform:
   m_GameObject: {fileID: 3338821813968259217}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.4926, y: 8.7185, z: 0}
-  m_LocalScale: {x: 0.36519578, y: 3.1679633, z: 1}
+  m_LocalPosition: {x: 4.1673, y: 8.3871, z: 0}
+  m_LocalScale: {x: 1.7145429, y: 2.5052252, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -106,8 +106,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24f2fe40039509a478c0ce4a4f1d5a6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 10
-  gain: 20
+  health: 250
+  gain: 150
 --- !u!50 &5179890435239614854
 Rigidbody2D:
   serializedVersion: 5
@@ -187,5 +187,5 @@ MonoBehaviour:
   SQUISH: 2
   Vacation: 10
   PYSICS_: {fileID: 0}
-  MOVEMENT_FasT: 6
+  MOVEMENT_FasT: 1.3
   THE_patH: []

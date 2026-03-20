@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eb7f68f6c170e0f4da49b24496894adc, type: 3}
-  m_Name: 1b
-  m_EditorClassIdentifier: 
-  many: 12
-  spacing: 0.1
-  thingy: {fileID: 3338821813968259217, guid: 732f0c1aea38cd54baebabd96e7a7e27, type: 3}
-  when: 5
+  m_Name: 4a
+  m_EditorClassIdentifier: Assembly-CSharp::around2
+  many: 23
+  spacing: 1
+  thingy: {fileID: 3338821813968259217, guid: 2084aba44dacc8d4ca0de2be8409d6f2, type: 3}
+  when: 2

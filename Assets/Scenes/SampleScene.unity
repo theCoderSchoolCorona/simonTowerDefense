@@ -578,8 +578,8 @@ RectTransform:
   - {fileID: 906798260}
   - {fileID: 768175694}
   - {fileID: 521685359}
-  - {fileID: 114879448}
   - {fileID: 398301380}
+  - {fileID: 114879448}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -632,6 +632,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 51545c837b1e0e44aa0aab88b7b819be, type: 2}
   - {fileID: 11400000, guid: ba3809e1bbc43eb4cab76d5386b38a5c, type: 2}
   - {fileID: 11400000, guid: 071fac375efebbd4f888d869481f9508, type: 2}
+  - {fileID: 11400000, guid: d995d1670483c784db9c6ea9d2cfdf38, type: 2}
+  - {fileID: 11400000, guid: 0022cf64c81f72d4283cd0eb295c457f, type: 2}
 --- !u!4 &390929622
 Transform:
   m_ObjectHideFlags: 0
@@ -2291,9 +2293,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   cam: {fileID: 519420031}
-  playerHealth: 1000
+  playerHealth: 10
   GameOver: {fileID: 114879447}
-  Bananas: 10000
+  Bananas: 1600
 --- !u!1 &906798259
 GameObject:
   m_ObjectHideFlags: 0
